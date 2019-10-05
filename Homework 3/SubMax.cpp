@@ -8,6 +8,9 @@ Dadas dos secuencias X e Y, se dice que Z es una subsecuencia común de X e Y si
 
 Diseñe un algoritmo que permita determinar la subsecuencia de longitud máxima común a dos secuencias.
 
+Con la ayuda del libro https://www.academia.edu/14196318/Cap%C3%ADtulo_5_PROGRAMACI%C3%93N_DIN%C3%81MICA_5.1_INTRODUCCI%C3%93N Cap 5.
+La complejidad del algoritmo es de O(NxM) [Matrices];
+
 */
 #include <iostream>
 #include <stdlib.h>

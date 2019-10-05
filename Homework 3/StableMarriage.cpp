@@ -11,6 +11,11 @@ Una pareja (h,m) es estable si no se da ninguna de estas dos circunstancias:
 
 Existe una mujer m’ (que forma la pareja (h’,m’)) tal que el hombre h la prefiere sobre la mujer m y además la mujer m’ también prefiere a h sobre h’. 
 Existe un hombre h” (que forma la pareja (h”,m”)) tal que la mujer m lo prefiere sobre el hombre h y además el hombre h” también prefiere a m sobre la mujer m”. 
+
+Con ayuda del codigo https://www.geeksforgeeks.org/stable-marriage-problem/
+
+La complejidad del algoritmo es de O(n^2).
+
 */
 #include <iostream>
 #include <stdlib.h>
@@ -26,6 +31,22 @@ void print(int arr[2*N][N], int n){
             cout<<arr[i][j]<<" ";
         }
         cout<<endl;
+    }
+
+}
+//Inserta preferencias del hombre / mujer en su arreglo
+void scramble(int HM[2*N][N], int n){
+    srand (time(NULL));//Semilla aleatorio
+    for(int i = 0; i<n; i++){
+        for(int j = 0; j<n; j++){
+            HM[i][j] = rand() % n+1;
+        }
+    }
+
+    for(int i = n; i<n*2; i++){
+        for(int j = 0; j<n; j++){
+            HM[i][j] = j;
+        }
     }
 
 }
