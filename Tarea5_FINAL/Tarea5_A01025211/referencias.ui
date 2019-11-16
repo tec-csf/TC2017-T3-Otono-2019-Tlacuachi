@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Referencias</class>
+ <widget class="QDialog" name="Referencias">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>676</width>
+    <height>512</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Referencias</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>651</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>621</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>621</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Referencias:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;La libreria de &lt;span style=&quot; font-style:italic;&quot;&gt;transformations&lt;/span&gt;, al igual que los metodos para dibujar un poligono, cubo, arco, cono y prismas son del autor:&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;yocoHM, 2015: &amp;quot;Geometria Computacional&amp;quot;, https://github.com/yocoHM/GeometriaComputacional.git&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Obtuve mucha ayuda de yocoHM principalmente en la parte de QPainter, que (hasta la fecha) sigo sin saber como funciona (a pesar de multiples horas de intentos).&lt;/p&gt;&lt;p&gt;&lt;a name=&quot;c-p-offscreen-div&quot;/&gt;Main. (n.d.). Retrieved from https://wiki.qt.io/Main.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>651</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>621</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>621</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Extras:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Trate de hacer este proyecto tres veces hasta obtener esta version final. La primer version la hice en libgraph.h, utilizando unicamento los metodos vistos en clase. Pense que no tendria problema implementando lo que llevaba en libgraph a QT, ya que pense que era solo un GUI (lo cual fue un gran error). Solo llegue aa hacer poligonos en libgraph, puedes encontrar el archivo dentro de la crpeta de github.&lt;/p&gt;&lt;p&gt;Por otro lado, QPainter es y sera mi peor pesadilla, por lo que trate de usar PGraphicsView, donde pude poner una escena, logre implementar (de algunas de mis funciones en libgraph) una clase para dibujar poligonos dentro de la escena, pero tuve muchisimos problemas al tratar de rotar mi poligono, perdi casi 5-6 horas tratando y tratando y nada, por lo que decidi pedir ayuda y hacerlo con QPainter. Pueden tambien encontrar ese proyecto en el github.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
